@@ -1,0 +1,23 @@
+{
+  "name": "french-car-scrapper",
+  "version": "1.0.0",
+  "description": "Get informations about a French car by its numberplate (AA-123-BB)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catsuri33/French-Car-Scrapper.git"
+  },
+  "author": "Catsuri33",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Catsuri33/French-Car-Scrapper/issues"
+  },
+  "homepage": "https://github.com/Catsuri33/French-Car-Scrapper#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "puppeteer": "^20.8.2"
+  }
+}
