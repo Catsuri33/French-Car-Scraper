@@ -4,7 +4,7 @@ const fs = require('fs');
 async function getCarData(numberplate){
 
     const browser = await puppeteer.launch({
-        headless: false
+        headless: true
     });
     const page = await browser.newPage();
 
@@ -53,6 +53,8 @@ async function getCarData(numberplate){
         });
 
     }
+
+    browser.close();
 
 }
 
