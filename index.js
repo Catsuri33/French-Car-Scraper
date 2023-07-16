@@ -4,7 +4,7 @@ const fs = require('fs');
 async function getCarData(numberplate){
 
     const browser = await puppeteer.launch({
-        headless: true
+        headless: 'new'
     });
     const page = await browser.newPage();
 
@@ -57,5 +57,7 @@ async function getCarData(numberplate){
     browser.close();
 
 }
+
+module.exports = getCarData;
 
 getCarData("AA-123-AA");

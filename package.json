@@ -1,6 +1,6 @@
 {
   "name": "french-car-scrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get informations about a French car by its numberplate (AA-123-BB)",
   "main": "index.js",
   "scripts": {
