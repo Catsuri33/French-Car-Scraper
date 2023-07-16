@@ -59,5 +59,3 @@ async function getCarData(numberplate){
 }
 
 module.exports = getCarData;
-
-getCarData("AA-123-AA");
